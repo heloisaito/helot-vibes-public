@@ -1,4 +1,8 @@
 @charset "UTF-8";
+@font-face {
+    font-family: reckless;
+    src: url(../fontes/Reckless-Light.otf);
+}
 
 /* Paleta de cores
 
@@ -12,20 +16,44 @@ Grafite #150e13
 */
 
 *{
-    font-family: url(/fontes/Reckless-Light.otf), 'Times New Roman', Times, serif;
+    font-family: 'reckless', 'Times New Roman', Times, serif;
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
 }
 
 body, html {
-    background-image: url(../imagens/Cristal@4x-8.png);
     background-color: #3f0f31;
+}
+
+section{
+    background-image: url("../imagens/Cristal@4x-8.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
     height: 100vh;
     width: 100vw;
+    position: absolute;
+    margin-top: 85px;
+    margin-bottom: 85px;
+
+}
+section#login{
+    display:block;
+    position: absolute;
+    top: 30%;
+}
+
+section#
+div, h1, p1 {
+    font-size: 36px;
+    color: #ebdec3;
+    text-align: center;
+
+    
 }
 
 main {
-    height: 100vh;
-    width: 100vw;
+    position: absolute;
+    text-align: center;
 }
