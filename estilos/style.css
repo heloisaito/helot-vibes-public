@@ -10,3 +10,22 @@ Verde #275450
 Grafite #150e13
 
 */
+
+*{
+    font-family: url(/fontes/Reckless-Light.otf), 'Times New Roman', Times, serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body, html {
+    background-image: url(../imagens/Cristal@4x-8.png);
+    background-color: #3f0f31;
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+    height: 100vh;
+    width: 100vw;
+}
